@@ -27,7 +27,7 @@ class ProductController extends Controller
     }
     public function delete($id){
         Product::deleteProduct($id);
-        return redirect('/manage-product')->with('message', 'Product info delete successfully.');
+        return redirect('/manage-product')->with('message', 'Product info trash successfully.');
     }
 
     public function  updateProductStatus($id){
@@ -36,5 +36,20 @@ class ProductController extends Controller
     public function detail($id)
     {
         return view('admin.product.detail', ['product' => Product::find($id)]);
+    }
+    public function trash(){
+        return view('admin.product.trash-product', [
+            'products' => Product::onlyTrashed()->get()
+        ]);
+    }
+    public function undo($id){
+        $product = Product::withTrashed()->find($id);
+        $product->restore();
+        return redirect('/product-trash')->with('message', 'Product restore successfully! and go to manage Page');
+    }
+    public function forceDelete($id){
+        $product = Product::withTrashed()->find($id);
+        $product->forceDelete();
+        return redirect('/product-trash')->with('message', 'Product Delete successfully! ');
     }
 }

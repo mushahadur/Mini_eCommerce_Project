@@ -4,10 +4,12 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Product extends Model
 {
     use HasFactory;
+    use SoftDeletes;
 
     private static $product, $image, $imageUrl, $imageName, $extension, $directory,$message;
     /**
@@ -64,10 +66,10 @@ class Product extends Model
     public static function deleteProduct($id)
     {
         self::$product = Product::find($id);
-        if (file_exists(self::$product->image))
-        {
-            unlink(self::$product->image);
-        }
+        // if (file_exists(self::$product->image))
+        // {
+        //     unlink(self::$product->image);
+        // }
         self::$product->delete();
     }
 
@@ -85,4 +87,7 @@ class Product extends Model
         self::$product->save();
         return self::$message;
     }
+
+
+   
 }

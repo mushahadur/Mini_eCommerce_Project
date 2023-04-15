@@ -6,9 +6,9 @@
             <div class="card">
                 <div class="card-body">
                     <div>
-                        <a href="{{ route('product.trash') }}" type="button" class="text-center btn btn-outline-danger float-right mb-3">Go to Trash</a>
+                        <a href="{{ url('manage-product') }}" type="button" class="text-center btn btn-outline-primary float-right mb-3">Go to Manage</a>
                     </div>
-                    <h4 class="card-title">Product Manage Form</h4>
+                    <h4 class="card-title">Product Trash Form</h4>
                     <p class="card-title-desc">{{Session::get('message')}}</p>
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
@@ -39,18 +39,8 @@
                                             <td>{{$product->status == 1 ? 'Published' : 'Unpublished'}}</td>
                                             <td><img src="{{asset($product->image)}}" alt="{{$product->name}}"  height="100" width="110"/></td>
                                             <td>
-                                                <a href="{{route('product.edit', ['id' => $product->id])}}" class="btn btn-outline-success">
-                                                    <i class='fas fa-user-edit'></i>
-                                                </a>
-                                                <a href="{{route('product.update-status', ['id' => $product->id])}}" class="btn btn-outline-primary">
-                                                    <i class="fa fa-arrow-up"></i>
-                                                </a>
-                                                <a href="{{route('product.delete', ['id' => $product->id])}}" class="btn btn-outline-danger" >
-                                                    <i class="fa fa fa-trash"></i>
-                                                </a>
-                                                <a href="{{route('product.detail', ['id' => $product->id])}}" class="btn btn-outline-secondary" >
-                                                    <i class="fa fa-book-open"></i>
-                                                </a>
+                                                <a href='{{route('product.undo', ['id' => $product->id])}}' type="button" class="btn btn-outline-success">Undo</a>
+                                                <a href='{{route('force.delete', ['id' => $product->id])}}' type="button" class="btn btn-outline-danger">Delete</a>
                                             </td>
                                         </tr>
                                     @endforeach
