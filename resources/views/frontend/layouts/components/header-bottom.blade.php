@@ -47,16 +47,16 @@
                     <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                         <ul id="nav" class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a href="index.html" class="active" aria-label="Toggle navigation">Home</a>
+                                <a href="{{route('home')}}" class="active" aria-label="Toggle navigation">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="index.html"  aria-label="Toggle navigation">Shop List</a>
+                                <a href="{{route('home')}}"  aria-label="Toggle navigation">Shop List</a>
                             </li>
                             <li class="nav-item">
-                                <a href="index.html"  aria-label="Toggle navigation">Cart</a>
+                                <a href="{{route('home')}}"  aria-label="Toggle navigation">Cart</a>
                             </li>
                             <li class="nav-item">
-                                <a href="index.html"  aria-label="Toggle navigation">Checkout</a>
+                                <a href="{{route('home')}}"  aria-label="Toggle navigation">Checkout</a>
                             </li>
                             <li class="nav-item">
                                 <a class="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"

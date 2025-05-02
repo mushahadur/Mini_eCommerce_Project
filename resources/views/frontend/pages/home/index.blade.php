@@ -25,7 +25,7 @@
                                         incididunt ut labore et dolore magna aliqua.</p>
                                     <h3><span>Now Only</span> $320.99</h3>
                                     <div class="button">
-                                        <a href="product-grids.html" class="btn">Shop Now</a>
+                                        <a href="{{route('details')}}" class="btn">Shop Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@
                                         incididunt ut labore et dolore magna aliqua.</p>
                                     <h3><span>Combo Only:</span> $590.00</h3>
                                     <div class="button">
-                                        <a href="product-grids.html" class="btn">Shop Now</a>
+                                        <a href="{{route('details')}}" class="btn">Shop Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@
                                     <h2>Weekly Sale!</h2>
                                     <p>Saving up to 50% off all online store items this week.</p>
                                     <div class="button">
-                                        <a class="btn" href="product-grids.html">Shop Now</a>
+                                        <a class="btn" href="{{route('details')}}">Shop Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -105,13 +105,13 @@
                         <div class="product-image">
                             <img src="{{asset('/')}}assets/images/products/product-1.jpg" alt="#">
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Watches</span>
                             <h4 class="title">
-                                <a href="product-grids.html">Xiaomi Mi Band 5</a>
+                                <a href="{{route('details')}}">Xiaomi Mi Band 5</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -135,13 +135,13 @@
                             <img src="{{asset('/')}}assets/images/products/product-2.jpg" alt="#">
                             <span class="sale-tag">-25%</span>
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Speaker</span>
                             <h4 class="title">
-                                <a href="product-grids.html">Big Power Sound Speaker</a>
+                                <a href="{{route('details')}}">Big Power Sound Speaker</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -165,13 +165,13 @@
                         <div class="product-image">
                             <img src="{{asset('/')}}assets/images/products/product-3.jpg" alt="#">
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Camera</span>
                             <h4 class="title">
-                                <a href="product-grids.html">WiFi Security Camera</a>
+                                <a href="{{route('details')}}">WiFi Security Camera</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -195,13 +195,13 @@
                             <img src="{{asset('/')}}assets/images/products/product-4.jpg" alt="#">
                             <span class="new-tag">New</span>
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Phones</span>
                             <h4 class="title">
-                                <a href="product-grids.html">iphone 6x plus</a>
+                                <a href="{{route('details')}}">iphone 6x plus</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -242,13 +242,13 @@
                         <div class="product-image">
                             <img src="{{asset('/')}}assets/images/products/product-1.jpg" alt="#">
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Watches</span>
                             <h4 class="title">
-                                <a href="product-grids.html">Xiaomi Mi Band 5</a>
+                                <a href="{{route('details')}}">Xiaomi Mi Band 5</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -272,13 +272,13 @@
                             <img src="{{asset('/')}}assets/images/products/product-2.jpg" alt="#">
                             <span class="sale-tag">-25%</span>
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Speaker</span>
                             <h4 class="title">
-                                <a href="product-grids.html">Big Power Sound Speaker</a>
+                                <a href="{{route('details')}}">Big Power Sound Speaker</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -302,13 +302,13 @@
                         <div class="product-image">
                             <img src="{{asset('/')}}assets/images/products/product-3.jpg" alt="#">
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Camera</span>
                             <h4 class="title">
-                                <a href="product-grids.html">WiFi Security Camera</a>
+                                <a href="{{route('details')}}">WiFi Security Camera</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -332,13 +332,13 @@
                             <img src="{{asset('/')}}assets/images/products/product-4.jpg" alt="#">
                             <span class="new-tag">New</span>
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Phones</span>
                             <h4 class="title">
-                                <a href="product-grids.html">iphone 6x plus</a>
+                                <a href="{{route('details')}}">iphone 6x plus</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -361,13 +361,13 @@
                         <div class="product-image">
                             <img src="{{asset('/')}}assets/images/products/product-5.jpg" alt="#">
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Headphones</span>
                             <h4 class="title">
-                                <a href="product-grids.html">Wireless Headphones</a>
+                                <a href="{{route('details')}}">Wireless Headphones</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -390,13 +390,13 @@
                         <div class="product-image">
                             <img src="{{asset('/')}}assets/images/products/product-6.jpg" alt="#">
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Speaker</span>
                             <h4 class="title">
-                                <a href="product-grids.html">Mini Bluetooth Speaker</a>
+                                <a href="{{route('details')}}">Mini Bluetooth Speaker</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -420,13 +420,13 @@
                             <img src="{{asset('/')}}assets/images/products/product-7.jpg" alt="#">
                             <span class="sale-tag">-50%</span>
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Headphones</span>
                             <h4 class="title">
-                                <a href="product-grids.html">PX7 Wireless Headphones</a>
+                                <a href="{{route('details')}}">PX7 Wireless Headphones</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -450,13 +450,13 @@
                         <div class="product-image">
                             <img src="{{asset('/')}}assets/images/products/product-8.jpg" alt="#">
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Laptop</span>
                             <h4 class="title">
-                                <a href="product-grids.html">Apple MacBook Air</a>
+                                <a href="{{route('details')}}">Apple MacBook Air</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -510,7 +510,7 @@
                             <h2>Smart Watch 2.0</h2>
                             <p>Space Gray Aluminum Case with <br>Black/Volt Real Sport Band </p>
                             <div class="button">
-                                <a href="product-grids.html" class="btn">View Details</a>
+                                <a href="{{route('details')}}" class="btn">View Details</a>
                             </div>
                         </div>
                     </div>
@@ -523,7 +523,7 @@
                             <p>Lorem ipsum dolor sit amet, <br>eiusmod tempor
                                 incididunt ut labore.</p>
                             <div class="button">
-                                <a href="product-grids.html" class="btn">Shop Now</a>
+                                <a href="{{route('details')}}" class="btn">Shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -552,13 +552,13 @@
                         <div class="product-image">
                             <img src="{{asset('/')}}assets/images/products/product-1.jpg" alt="#">
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Watches</span>
                             <h4 class="title">
-                                <a href="product-grids.html">Xiaomi Mi Band 5</a>
+                                <a href="{{route('details')}}">Xiaomi Mi Band 5</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -582,13 +582,13 @@
                             <img src="{{asset('/')}}assets/images/products/product-2.jpg" alt="#">
                             <span class="sale-tag">-25%</span>
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Speaker</span>
                             <h4 class="title">
-                                <a href="product-grids.html">Big Power Sound Speaker</a>
+                                <a href="{{route('details')}}">Big Power Sound Speaker</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -612,13 +612,13 @@
                         <div class="product-image">
                             <img src="{{asset('/')}}assets/images/products/product-3.jpg" alt="#">
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Camera</span>
                             <h4 class="title">
-                                <a href="product-grids.html">WiFi Security Camera</a>
+                                <a href="{{route('details')}}">WiFi Security Camera</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -642,13 +642,13 @@
                             <img src="{{asset('/')}}assets/images/products/product-4.jpg" alt="#">
                             <span class="new-tag">New</span>
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Phones</span>
                             <h4 class="title">
-                                <a href="product-grids.html">iphone 6x plus</a>
+                                <a href="{{route('details')}}">iphone 6x plus</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -671,13 +671,13 @@
                         <div class="product-image">
                             <img src="{{asset('/')}}assets/images/products/product-5.jpg" alt="#">
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Headphones</span>
                             <h4 class="title">
-                                <a href="product-grids.html">Wireless Headphones</a>
+                                <a href="{{route('details')}}">Wireless Headphones</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -700,13 +700,13 @@
                         <div class="product-image">
                             <img src="{{asset('/')}}assets/images/products/product-6.jpg" alt="#">
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Speaker</span>
                             <h4 class="title">
-                                <a href="product-grids.html">Mini Bluetooth Speaker</a>
+                                <a href="{{route('details')}}">Mini Bluetooth Speaker</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -730,13 +730,13 @@
                             <img src="{{asset('/')}}assets/images/products/product-7.jpg" alt="#">
                             <span class="sale-tag">-50%</span>
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Headphones</span>
                             <h4 class="title">
-                                <a href="product-grids.html">PX7 Wireless Headphones</a>
+                                <a href="{{route('details')}}">PX7 Wireless Headphones</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -760,13 +760,13 @@
                         <div class="product-image">
                             <img src="{{asset('/')}}assets/images/products/product-8.jpg" alt="#">
                             <div class="button">
-                                <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="{{route('details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
                             <span class="category">Laptop</span>
                             <h4 class="title">
-                                <a href="product-grids.html">Apple MacBook Air</a>
+                                <a href="{{route('details')}}">Apple MacBook Air</a>
                             </h4>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>

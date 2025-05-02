@@ -4,7 +4,7 @@
         <div class="row align-items-center">
             <div class="col-lg-3 col-md-3 col-7">
                 <!-- Start Header Logo -->
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="{{route('home')}}">
                     <img src="{{asset('/')}}assets/images/logo/logo.svg" alt="Logo">
                 </a>
                 <!-- End Header Logo -->
@@ -42,12 +42,12 @@
                     <div class="nav-hotline">
                         <i class="lni lni-phone"></i>
                         <h3>Hotline:
-                            <span>(+100) 123 456 7890</span>
+                            <span>(+88) 01784151488</span>
                         </h3>
                     </div>
                     <div class="navbar-cart">
                         <div class="user">
-                            <a href="javascript:void(0)">
+                            <a href="{{route('login')}}">
                                 <i class="lni lni-user"></i>
                             </a>
                         </div>

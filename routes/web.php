@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Route;
 
 //__Rotue For Frontend HomeController --**
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/product-details', [HomeController::class, 'details'])->name('details');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
