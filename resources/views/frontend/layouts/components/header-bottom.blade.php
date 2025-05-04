@@ -53,7 +53,7 @@
                                 <a href="{{route('home')}}"  aria-label="Toggle navigation">Shop List</a>
                             </li>
                             <li class="nav-item">
-                                <a href="{{route('home')}}"  aria-label="Toggle navigation">Cart</a>
+                                <a href="{{route('cart')}}"  aria-label="Toggle navigation">Cart</a>
                             </li>
                             <li class="nav-item">
                                 <a href="{{route('home')}}"  aria-label="Toggle navigation">Checkout</a>

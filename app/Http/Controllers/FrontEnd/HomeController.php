@@ -13,4 +13,8 @@ class HomeController extends Controller
     public function details(){
         return view('frontend.pages.products.details');
     }
+
+    public function cart(){
+        return view('frontend.pages.cart.index');
+    }
 }

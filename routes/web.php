@@ -13,8 +13,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/product-details', [HomeController::class, 'details'])->name('details');
 
+Route::get('/cart', [HomeController::class, 'cart'])->name('cart');
+
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('backend.pages.dashboard.index');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 
